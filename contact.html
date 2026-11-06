@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDrive - Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <span>🚘</span>
+            Auto<span>Drive</span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section class="contact-section">
+    <div class="section-title">
+        <p>GET IN TOUCH</p>
+        <h2>Contact <span>AutoDrive</span></h2>
+        <div class="line"></div>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Visit Our Showroom</h3>
+            <p>📍 Kurnool, Andhra Pradesh, India</p>
+            <p>📞 +91 98765 43210</p>
+            <p>📧 autodrive@gmail.com</p>
+            <p>🕐 Mon - Sat: 9:00 AM - 8:00 PM</p>
+        </div>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <textarea id="message" rows="5" placeholder="Tell us which car you are interested in..." required></textarea>
+            <button type="submit" class="submit-btn">Send Message 🚀</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-logo">🚘 AutoDrive</div>
+    <p>© 2026 AutoDrive Automobile Showroom</p>
+    <p>Designed by M. Narasimha Reddy</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

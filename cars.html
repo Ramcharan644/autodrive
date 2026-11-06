@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoDrive - Cars</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <span>🚘</span>
+            Auto<span>Drive</span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+</header>
+
+<section class="cars-section">
+    <div class="section-title">
+        <p>OUR COLLECTION</p>
+        <h2>Choose Your <span>Dream Car</span></h2>
+        <div class="line"></div>
+    </div>
+
+    <div class="car-container">
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80" alt="BMW">
+            <div class="car-info">
+                <h3>BMW M4</h3>
+                <p>Luxury Performance</p>
+                <div class="car-details"><span>⚡ 503 HP</span><span>🏎️ 3.0L</span></div>
+                <h4>₹85 Lakh</h4>
+                <button onclick="showMessage('BMW M4')">View Details</button>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80" alt="Mercedes">
+            <div class="car-info">
+                <h3>Mercedes AMG</h3>
+                <p>Luxury & Comfort</p>
+                <div class="car-details"><span>⚡ 577 HP</span><span>🏎️ 4.0L</span></div>
+                <h4>₹1.20 Crore</h4>
+                <button onclick="showMessage('Mercedes AMG')">View Details</button>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80" alt="Audi">
+            <div class="car-info">
+                <h3>Audi R8</h3>
+                <p>Sport & Technology</p>
+                <div class="car-details"><span>⚡ 602 HP</span><span>🏎️ 5.2L</span></div>
+                <h4>₹2.30 Crore</h4>
+                <button onclick="showMessage('Audi R8')">View Details</button>
+            </div>
+        </div>
+
+        <div class="car-card">
+            <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=800&q=80" alt="Lamborghini">
+            <div class="car-info">
+                <h3>Lamborghini</h3>
+                <p>Ultimate Supercar</p>
+                <div class="car-details"><span>⚡ 631 HP</span><span>🏎️ V10</span></div>
+                <h4>₹4.50 Crore</h4>
+                <button onclick="showMessage('Lamborghini')">View Details</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-logo">🚘 AutoDrive</div>
+    <p>© 2026 AutoDrive Automobile Showroom</p>
+    <p>Designed by M. Narasimha Reddy</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
